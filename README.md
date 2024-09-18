@@ -1,3 +1,3 @@
 # BLOG PLATFORM
 
-![site logo]('./flaskblog/static/images/blogitlogo.jpg')
+![site logo]('./flaskblog/static/images/blogit.jpg')
