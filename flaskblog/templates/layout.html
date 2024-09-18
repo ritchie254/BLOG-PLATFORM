@@ -21,10 +21,10 @@
 			<ul class="navbar">
 				<li><a href="{{ url_for('home') }}" class="active">Home</a></li>
 				<li><a href="#" >About</a></li>
-				<li><a href="#" >Contact Us</a></li>
 			</ul>
 			<div class="details">
 				{% if current_user.is_authenticated %}
+				<a href="{{ url_for('new_post') }}" class="user"><i class="ri-file-add-fill"></i></i>Create Post</a>
 				<a href="{{ url_for('account') }}" class="user"><i class="ri-account-pin-circle-fill"></i></i>Account</a>
 				<a href="{{ url_for('logout') }}" class="user"><i class="ri-logout-box-fill"></i></i>LogOut</a>
 				{% else %}
