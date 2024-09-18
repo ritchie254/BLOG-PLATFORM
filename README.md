@@ -1,3 +1,3 @@
 # BLOG PLATFORM
 
-![site logo]('./blogitlogo.jpg')
+![site logo](./blogitlogo.jpg)
